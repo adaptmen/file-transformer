@@ -1,8 +1,11 @@
 {
-  "name": "file-transformer",
-  "version": "0.0.1",
+  "name": "many-file-transformer",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "file-transformer": "./bin/bin.js"
+  },
   "scripts": {
     "watch": "tsc --watch"
   },
@@ -10,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/adaptmen/file-transformer.git"
   },
-  "author": "",
+  "author": "Denis Voronchikhin <adaptmen@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/adaptmen/file-transformer/issues"
